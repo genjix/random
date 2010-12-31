@@ -1,0 +1,4 @@
+VBoxManage modifyvm XP -vrdpmulticon on
+VBoxManage modifyvm XP -monitorcount 2
+VBoxHeadless --startvm XP
+

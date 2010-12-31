@@ -1,0 +1,4 @@
+VBoxManage controlvm XP setvideomodehint 1920 1080 24
+rdesktop -r sound:remote -A -s "c:\seamlessrdp\seamlessrdpshell.exe C:\Windows\explorer.exe" -u genjix -d @2 localhost:3389 &
+rdesktop -r sound:remote -A -s "c:\seamlessrdp\seamlessrdpshell.exe C:\Windows\explorer.exe" -u genjix -d @1 localhost:3389 &
+
